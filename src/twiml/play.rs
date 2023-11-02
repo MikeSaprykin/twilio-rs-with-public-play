@@ -28,8 +28,8 @@ pub enum Playable {
 }
 
 pub struct Play {
-    playable: Playable,
-    loop_count: usize,
+    pub playable: Playable,
+    pub loop_count: usize,
 }
 
 impl Action for Play {
